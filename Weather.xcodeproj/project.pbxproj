@@ -8,12 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		2E2D769A1A4071F600D04EF9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E2D76991A4071F600D04EF9 /* main.m */; };
-		2E2D769D1A4071F600D04EF9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E2D769C1A4071F600D04EF9 /* AppDelegate.m */; };
-		2E2D76A01A4071F600D04EF9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E2D769F1A4071F600D04EF9 /* ViewController.m */; };
-		2E2D76A31A4071F600D04EF9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E2D76A11A4071F600D04EF9 /* Main.storyboard */; };
 		2E2D76A51A4071F600D04EF9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E2D76A41A4071F600D04EF9 /* Images.xcassets */; };
 		2E2D76A81A4071F600D04EF9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E2D76A61A4071F600D04EF9 /* LaunchScreen.xib */; };
 		2E2D76B41A4071F600D04EF9 /* WeatherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E2D76B31A4071F600D04EF9 /* WeatherTests.m */; };
+		2E8641F11A40E49F00B4ED6A /* WIPForecastTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E8641F01A40E49F00B4ED6A /* WIPForecastTableCell.m */; };
+		2E8641F61A41B53C00B4ED6A /* rain@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E8641F51A41B53C00B4ED6A /* rain@2x.png */; };
+		2E8641F81A41B54200B4ED6A /* wind@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E8641F71A41B54200B4ED6A /* wind@2x.png */; };
+		C4E030A0A1AD71D41CA67F47 /* WIPWeather.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E0351A98EDAFCF9F7DEFB0 /* WIPWeather.m */; };
+		C4E0334804BCEB2DD76C4714 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E035E4F51C8D9FB565948B /* AppDelegate.m */; };
+		C4E0339682700E84F09409DE /* WIPForecast.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E0369E1EF5E2F65EB4CAC7 /* WIPForecast.m */; };
+		C4E038952BF66C75D7F1A603 /* WIPWeatherProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E038F9CFBC600DDD57AFEB /* WIPWeatherProvider.m */; };
+		C4E03E7275034783F45F5C52 /* WIPTime.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E0319B235484E3AC7BD489 /* WIPTime.m */; };
+		C4E03F40408371AA30ECDC07 /* WIPForecastTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E0315699D8E819C968F112 /* WIPForecastTableViewController.m */; };
+		C4E03F49D8770E85F454D7BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4E0371D471E27362AC701A9 /* Main.storyboard */; };
+		C4E03FDE7402D75886700F24 /* WIPTimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E037B7C0C1FA7A69657C29 /* WIPTimeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,16 +38,31 @@
 		2E2D76941A4071F600D04EF9 /* Weather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Weather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E2D76981A4071F600D04EF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2E2D76991A4071F600D04EF9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		2E2D769B1A4071F600D04EF9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		2E2D769C1A4071F600D04EF9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		2E2D769E1A4071F600D04EF9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		2E2D769F1A4071F600D04EF9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		2E2D76A21A4071F600D04EF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2E2D76A41A4071F600D04EF9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		2E2D76A71A4071F600D04EF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		2E2D76AD1A4071F600D04EF9 /* WeatherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeatherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E2D76B21A4071F600D04EF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2E2D76B31A4071F600D04EF9 /* WeatherTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeatherTests.m; sourceTree = "<group>"; };
+		2E8641EF1A40E49F00B4ED6A /* WIPForecastTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WIPForecastTableCell.h; sourceTree = "<group>"; };
+		2E8641F01A40E49F00B4ED6A /* WIPForecastTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WIPForecastTableCell.m; sourceTree = "<group>"; };
+		2E8641F51A41B53C00B4ED6A /* rain@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rain@2x.png"; sourceTree = "<group>"; };
+		2E8641F71A41B54200B4ED6A /* wind@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wind@2x.png"; sourceTree = "<group>"; };
+		C4E0312648A7632EA17995EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Weather/Base.lproj/Main.storyboard; sourceTree = SOURCE_ROOT; };
+		C4E0315699D8E819C968F112 /* WIPForecastTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WIPForecastTableViewController.m; sourceTree = "<group>"; };
+		C4E0319B235484E3AC7BD489 /* WIPTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WIPTime.m; sourceTree = "<group>"; };
+		C4E0351A98EDAFCF9F7DEFB0 /* WIPWeather.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WIPWeather.m; sourceTree = "<group>"; };
+		C4E035B0360EA4078C57924F /* WIPWeatherProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WIPWeatherProvider.h; sourceTree = "<group>"; };
+		C4E035E4F51C8D9FB565948B /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C4E0369E1EF5E2F65EB4CAC7 /* WIPForecast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WIPForecast.m; sourceTree = "<group>"; };
+		C4E036FC6FE3DF7D8E9F7989 /* WIPForecastTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WIPForecastTableViewController.h; sourceTree = "<group>"; };
+		C4E037B7C0C1FA7A69657C29 /* WIPTimeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WIPTimeViewController.m; sourceTree = "<group>"; };
+		C4E038F9CFBC600DDD57AFEB /* WIPWeatherProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WIPWeatherProvider.m; sourceTree = "<group>"; };
+		C4E03A402D798338987DB6F9 /* WIPTimeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WIPTimeViewController.h; sourceTree = "<group>"; };
+		C4E03C56C15668AF9DB603B8 /* WIPWeatherDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WIPWeatherDelegate.h; sourceTree = "<group>"; };
+		C4E03DCA16F9C82427A1B95C /* WIPWeather.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WIPWeather.h; sourceTree = "<group>"; };
+		C4E03DFBF1AAF6EF3C78D550 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C4E03E5D6EC133523C0A1E47 /* WIPForecast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WIPForecast.h; sourceTree = "<group>"; };
+		C4E03EDE0B3BA3E53496ED4C /* WIPTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WIPTime.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,14 +104,13 @@
 		2E2D76961A4071F600D04EF9 /* Weather */ = {
 			isa = PBXGroup;
 			children = (
-				2E2D769B1A4071F600D04EF9 /* AppDelegate.h */,
-				2E2D769C1A4071F600D04EF9 /* AppDelegate.m */,
-				2E2D769E1A4071F600D04EF9 /* ViewController.h */,
-				2E2D769F1A4071F600D04EF9 /* ViewController.m */,
-				2E2D76A11A4071F600D04EF9 /* Main.storyboard */,
+				2E8641F21A41B52600B4ED6A /* resources */,
 				2E2D76A41A4071F600D04EF9 /* Images.xcassets */,
 				2E2D76A61A4071F600D04EF9 /* LaunchScreen.xib */,
 				2E2D76971A4071F600D04EF9 /* Supporting Files */,
+				C4E0329643C97E9373A02E7E /* model */,
+				C4E036C58A6BF5CC067BC8A3 /* controller */,
+				C4E03F0A3EBB00785B128A87 /* view */,
 			);
 			path = Weather;
 			sourceTree = "<group>";
@@ -117,6 +139,54 @@
 				2E2D76B21A4071F600D04EF9 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2E8641F21A41B52600B4ED6A /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				2E8641F71A41B54200B4ED6A /* wind@2x.png */,
+				2E8641F51A41B53C00B4ED6A /* rain@2x.png */,
+			);
+			name = resources;
+			sourceTree = "<group>";
+		};
+		C4E0329643C97E9373A02E7E /* model */ = {
+			isa = PBXGroup;
+			children = (
+				C4E0351A98EDAFCF9F7DEFB0 /* WIPWeather.m */,
+				C4E03DCA16F9C82427A1B95C /* WIPWeather.h */,
+				C4E0369E1EF5E2F65EB4CAC7 /* WIPForecast.m */,
+				C4E03E5D6EC133523C0A1E47 /* WIPForecast.h */,
+				C4E0319B235484E3AC7BD489 /* WIPTime.m */,
+				C4E03EDE0B3BA3E53496ED4C /* WIPTime.h */,
+				C4E038F9CFBC600DDD57AFEB /* WIPWeatherProvider.m */,
+				C4E035B0360EA4078C57924F /* WIPWeatherProvider.h */,
+				C4E03C56C15668AF9DB603B8 /* WIPWeatherDelegate.h */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		C4E036C58A6BF5CC067BC8A3 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				C4E035E4F51C8D9FB565948B /* AppDelegate.m */,
+				C4E03DFBF1AAF6EF3C78D550 /* AppDelegate.h */,
+				C4E0315699D8E819C968F112 /* WIPForecastTableViewController.m */,
+				C4E037B7C0C1FA7A69657C29 /* WIPTimeViewController.m */,
+				C4E03A402D798338987DB6F9 /* WIPTimeViewController.h */,
+				C4E036FC6FE3DF7D8E9F7989 /* WIPForecastTableViewController.h */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		C4E03F0A3EBB00785B128A87 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				2E8641EF1A40E49F00B4ED6A /* WIPForecastTableCell.h */,
+				2E8641F01A40E49F00B4ED6A /* WIPForecastTableCell.m */,
+				C4E0371D471E27362AC701A9 /* Main.storyboard */,
+			);
+			path = view;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,9 +269,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E2D76A31A4071F600D04EF9 /* Main.storyboard in Resources */,
+				2E8641F81A41B54200B4ED6A /* wind@2x.png in Resources */,
+				2E8641F61A41B53C00B4ED6A /* rain@2x.png in Resources */,
 				2E2D76A81A4071F600D04EF9 /* LaunchScreen.xib in Resources */,
 				2E2D76A51A4071F600D04EF9 /* Images.xcassets in Resources */,
+				C4E03F49D8770E85F454D7BE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,9 +291,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E2D76A01A4071F600D04EF9 /* ViewController.m in Sources */,
-				2E2D769D1A4071F600D04EF9 /* AppDelegate.m in Sources */,
+				2E8641F11A40E49F00B4ED6A /* WIPForecastTableCell.m in Sources */,
 				2E2D769A1A4071F600D04EF9 /* main.m in Sources */,
+				C4E030A0A1AD71D41CA67F47 /* WIPWeather.m in Sources */,
+				C4E0339682700E84F09409DE /* WIPForecast.m in Sources */,
+				C4E03E7275034783F45F5C52 /* WIPTime.m in Sources */,
+				C4E0334804BCEB2DD76C4714 /* AppDelegate.m in Sources */,
+				C4E03F40408371AA30ECDC07 /* WIPForecastTableViewController.m in Sources */,
+				C4E03FDE7402D75886700F24 /* WIPTimeViewController.m in Sources */,
+				C4E038952BF66C75D7F1A603 /* WIPWeatherProvider.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,20 +322,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		2E2D76A11A4071F600D04EF9 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2E2D76A21A4071F600D04EF9 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		2E2D76A61A4071F600D04EF9 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				2E2D76A71A4071F600D04EF9 /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		C4E0371D471E27362AC701A9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4E0312648A7632EA17995EF /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -343,6 +421,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = YES;
 				INFOPLIST_FILE = Weather/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -353,6 +432,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = YES;
 				INFOPLIST_FILE = Weather/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -412,6 +492,7 @@
 				2E2D76B91A4071F600D04EF9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2E2D76BA1A4071F600D04EF9 /* Build configuration list for PBXNativeTarget "WeatherTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +501,7 @@
 				2E2D76BC1A4071F600D04EF9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
